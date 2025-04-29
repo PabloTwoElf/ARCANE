@@ -1,7 +1,7 @@
-package com.example.arcane.service;
+package com.example.udla.edu.ec.service;
 
-import com.example.arcane.model.Afiliacion;
-import com.example.arcane.repository.AfiliacionRepository;
+import com.example.udla.edu.ec.model.Afiliacion;
+import com.example.udla.edu.ec.repository.AfiliacionRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

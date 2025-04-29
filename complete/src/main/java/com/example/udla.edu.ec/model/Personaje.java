@@ -1,5 +1,4 @@
-package udla.edu.ec;
-
+package com.example.udla.edu.ec.model;
 import jakarta.persistence.*;
 
 @Entity

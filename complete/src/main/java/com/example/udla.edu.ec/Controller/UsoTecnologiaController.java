@@ -1,7 +1,6 @@
-package udla.edu.ec;
-
-import com.example.arcane.model.UsoTecnologia;
-import com.example.arcane.service.UsoTecnologiaService;
+package com.example.udla.edu.ec.Controller;
+import com.example.udla.edu.ec.model.UsoTecnologia;
+import com.example.udla.edu.ec.service.UsoTecnologiaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

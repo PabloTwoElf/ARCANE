@@ -1,7 +1,7 @@
-package udla.edu.ec;
+package com.example.udla.edu.ec.Controller;
 
-import com.example.arcane.model.Tecnologia;
-import com.example.arcane.service.TecnologiaService;
+import com.example.udla.edu.ec.model.Tecnologia;
+import com.example.udla.edu.ec.service.TecnologiaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -11,7 +11,6 @@ import java.util.Optional;
 @RestController
 @RequestMapping("/api/tecnologias")
 public class TecnologiaController {
-
     @Autowired
     private TecnologiaService tecnologiaService;
 

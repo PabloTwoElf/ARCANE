@@ -1,66 +1,103 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f1f1f1;
-    margin: 0;
-    padding: 2rem;
-    color: #333;
+  font-family: 'Rajdhani', sans-serif;
+  background-color: #121212;
+  margin: 0;
+  padding: 0;
+  color: #e0e0e0;
+}
+
+header {
+  text-align: center;
+  padding: 2rem;
+  background: linear-gradient(to right, #3a0ca3, #7209b7);
+  color: white;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
 }
 
 h1 {
-    text-align: center;
-    margin-bottom: 3rem;
-    color: #2c3e50;
+  margin: 0;
+  font-size: 3rem;
 }
 
-section {
-    background-color: #fff;
-    border-radius: 12px;
-    padding: 1.5rem;
-    margin-bottom: 2rem;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+.subtitulo {
+  font-size: 1.2rem;
+  opacity: 0.8;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.card {
+  background: #1e1e2f;
+  border-radius: 15px;
+  padding: 1.5rem;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h2 {
+  margin-bottom: 1rem;
+  color: #ffb703;
+  font-size: 1.5rem;
 }
 
 form {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    align-items: center;
-    margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  margin-bottom: 1.2rem;
 }
 
 form input {
-    flex: 1;
-    padding: 0.6rem;
-    border-radius: 6px;
-    border: 1px solid #ccc;
-    font-size: 1rem;
+  padding: 0.7rem;
+  border: none;
+  border-radius: 8px;
+  background: #2a2a40;
+  color: #fff;
+  font-size: 1rem;
+}
+
+form input::placeholder {
+  color: #aaa;
+}
+
+form input:focus {
+  outline: 2px solid #ffb703;
+  background-color: #343454;
 }
 
 form button {
-    padding: 0.6rem 1rem;
-    background-color: #2d89ef;
-    color: white;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+  padding: 0.7rem;
+  background: #ffb703;
+  color: #000;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
 }
 
 form button:hover {
-    background-color: #1c6dd0;
+  background: #fcbf49;
 }
 
 ul {
-    list-style-type: none;
-    padding-left: 1rem;
-    margin: 0;
+  list-style: none;
+  padding: 0;
 }
 
 ul li {
-    background-color: #fafafa;
-    padding: 0.6rem 1rem;
-    margin-bottom: 0.5rem;
-    border-left: 4px solid #2d89ef;
-    border-radius: 6px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.03);
+  background: #2e2e44;
+  margin-bottom: 0.5rem;
+  padding: 0.6rem 1rem;
+  border-left: 5px solid #ffb703;
+  border-radius: 6px;
 }

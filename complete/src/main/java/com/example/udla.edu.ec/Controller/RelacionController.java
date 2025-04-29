@@ -1,7 +1,7 @@
-package udla.edu.ec;
+package com.example.udla.edu.ec.Controller;
 
-import com.example.arcane.model.Relacion;
-import com.example.arcane.service.RelacionService;
+import com.example.udla.edu.ec.model.Relacion;
+import com.example.udla.edu.ec.service.RelacionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -11,7 +11,6 @@ import java.util.Optional;
 @RestController
 @RequestMapping("/api/relaciones")
 public class RelacionController {
-
     @Autowired
     private RelacionService relacionService;
 

@@ -1,7 +1,8 @@
-package udla.edu.ec;
+package com.example.udla.edu.ec.Controller;
 
-import com.example.arcane.model.Personaje;
-import com.example.arcane.service.PersonajeService;
+import com.example.udla.edu.ec.model.Personaje;
+import com.example.udla.edu.ec.service.PersonajeService;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -11,7 +12,6 @@ import java.util.Optional;
 @RestController
 @RequestMapping("/api/personajes")
 public class PersonajeController {
-
     @Autowired
     private PersonajeService personajeService;
 

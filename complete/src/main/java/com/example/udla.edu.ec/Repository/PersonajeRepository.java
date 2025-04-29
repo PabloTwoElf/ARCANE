@@ -1,6 +1,5 @@
-package udla.edu.ec;
-
-import com.example.arcane.model.Personaje;
+package com.example.udla.edu.ec.Repository;
+import com.example.udla.edu.ec.model.Personaje;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

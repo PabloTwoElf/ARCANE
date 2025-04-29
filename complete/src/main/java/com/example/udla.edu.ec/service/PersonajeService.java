@@ -1,7 +1,5 @@
-package com.example.arcane.service;
-
-import com.example.arcane.model.Personaje;
-import com.example.arcane.repository.PersonajeRepository;
+package com.example.udla.edu.ec.service;
+import com.example.udla.edu.ec.Repository.PersonajeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

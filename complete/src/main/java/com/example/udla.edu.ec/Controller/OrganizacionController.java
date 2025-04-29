@@ -1,7 +1,7 @@
-package udla.edu.ec;
+package com.example.udla.edu.ec.Controller;
 
-import com.example.arcane.model.Organizacion;
-import com.example.arcane.service.OrganizacionService;
+import com.example.udla.edu.ec.model.Organizacion;
+import com.example.udla.edu.ec.service.OrganizacionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -11,7 +11,6 @@ import java.util.Optional;
 @RestController
 @RequestMapping("/api/organizaciones")
 public class OrganizacionController {
-
     @Autowired
     private OrganizacionService organizacionService;
 

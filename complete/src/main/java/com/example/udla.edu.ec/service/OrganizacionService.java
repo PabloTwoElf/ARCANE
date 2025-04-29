@@ -1,4 +1,4 @@
-package com.example.arcane.service;
+package com.example.udla.edu.ec.service;
 
 import com.example.arcane.model.Organizacion;
 import com.example.arcane.repository.OrganizacionRepository;
